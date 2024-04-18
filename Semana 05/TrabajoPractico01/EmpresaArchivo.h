@@ -1,8 +1,9 @@
 #pragma once 
 #include <string>
 #include "Empresa.h"
+#include "Archivo.h"
 
-class EmpresaArchivo{
+class EmpresaArchivo: public Archivo{
 public:
     EmpresaArchivo();
     EmpresaArchivo(std::string fileName);
@@ -13,10 +14,7 @@ public:
     int getCantidadRegistros();
     bool isExist(int numeroEmpresa);
 private:
-    bool abrir(std::string modo="rb");
-    void cerrar();
+   
 
-    FILE* _pFile;
-    std::string _fileName;
 };
 

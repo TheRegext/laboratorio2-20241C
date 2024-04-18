@@ -5,8 +5,9 @@ EmpresaArchivo::EmpresaArchivo(){
     _fileName = "empresas.dat";
 }
 
-EmpresaArchivo::EmpresaArchivo(string filename){
-    _fileName = filename;
+EmpresaArchivo::EmpresaArchivo(string filename)
+{
+   _fileName = filename;
 }
 
 int EmpresaArchivo::getCantidadRegistros(){
@@ -83,19 +84,6 @@ Empresa EmpresaArchivo::leer(int index){
     cerrar();
     
     return empresa;
-}
-
-bool EmpresaArchivo::abrir(string modo){
-    _pFile = fopen(_fileName.c_str(), modo.c_str());
-    
-    if(_pFile == nullptr){
-        return false;
-    }
-    return true;
-}
-
-void EmpresaArchivo::cerrar(){
-   fclose(_pFile);
 }
 
 

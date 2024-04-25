@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1713443291 source:e:\projects\utn\laboratorio2-20241c\semana 05\trabajopractico01\empresa.cpp
+	<string>
+	<cstring>
+	"Empresa.h"
+
+1713443680 e:\projects\utn\laboratorio2-20241c\semana 05\trabajopractico01\empresa.h
+	<string>
+
+1713452689 source:e:\projects\utn\laboratorio2-20241c\semana 05\trabajopractico01\empresamanager.cpp
+	<string>
+	<iostream>
+	"EmpresaManager.h"
+
+1713451513 e:\projects\utn\laboratorio2-20241c\semana 05\trabajopractico01\empresamanager.h
+	"Empresa.h"
+	"EmpresaArchivo.h"
+
+1713449031 source:e:\projects\utn\laboratorio2-20241c\semana 05\trabajopractico01\main.cpp
+	<iostream>
+	"EmpresaManager.h"
+
+1713453102 e:\projects\utn\laboratorio2-20241c\semana 05\trabajopractico01\empresaarchivo.h
+	<string>
+	"Empresa.h"
+
+1713452151 source:e:\projects\utn\laboratorio2-20241c\semana 05\trabajopractico01\empresaarchivo.cpp
+	"EmpresaArchivo.h"
+
+1713443291 source:e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\empresa.cpp
+	<string>
+	<cstring>
+	"Empresa.h"
+
+1713443680 e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\empresa.h
+	<string>
+
+1714051948 source:e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\main.cpp
+	<iostream>
+	"AppManager.h"
+
+1714055380 e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\empresamanager.h
+	"Empresa.h"
+	"EmpresaArchivo.h"
+
+1714057119 e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\empresaarchivo.h
+	<string>
+	"Empresa.h"
+	"Archivo.h"
+
+1713454180 e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\archivo.h
+	<string>
+	<cstdio>
+
+1713454194 source:e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\archivo.cpp
+	"Archivo.h"
+
+1714057114 source:e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\empresaarchivo.cpp
+	"EmpresaArchivo.h"
+
+1714057362 source:e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\empresamanager.cpp
+	<string>
+	<iostream>
+	"EmpresaManager.h"
+
+1713454310 source:e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\municipioarchivo.cpp
+	"MunicipioArchivo.h"
+
+1713454310 e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\municipioarchivo.h
+	"Archivo.h"
+
+1714054468 source:e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\appmanager.cpp
+	<iostream>
+	"AppManager.h"
+
+1714051916 e:\projects\utn\laboratorio2-20241c\semana 06\trabajopractico01\appmanager.h
+	"EmpresaManager.h"
+
